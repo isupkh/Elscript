@@ -1,0 +1,619 @@
+*{
+    margin: 0.5px;
+    padding: 0.5px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+}
+
+.image{
+    margin-left: 3px;
+    padding-bottom: 20px;
+
+}
+
+/* navigation bar */
+
+.navn a{
+    text-decoration: none;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 10px;
+    color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+.navn a:hover{
+    color: #3cb878;
+}
+.active{
+    color: #3cb878;
+}
+
+/* Resposive media */
+
+@media only screen and (max-width:1025px){
+    .navn{
+        display: none;
+    }
+}
+@media only screen and (max-width:1225px){
+   
+}
+
+/* navigation end */
+
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.paragph{
+    color: #000000;
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    line-height: 70px;
+    font-weight: 500;
+    font-size: 50px;
+    padding-top: 10px;
+    margin-left: 15px;
+}
+.manpc {
+    vertical-align: middle;
+    width: 100%;
+    max-width: 800px;
+    line-height: 23px;   
+}
+.manpc img{
+    height: 533.33px;
+    width: 800px;
+}
+.twoo{
+    padding-bottom: 2px;
+    display: flex;
+    margin-left: 130px;
+}
+button{
+    border-style: none;
+    border-color: white;
+    margin-top: 200px;
+}
+button a{
+    text-decoration: none;
+    padding :40px 25px; 
+    
+}
+.c1 a{
+    border: 1px solid #3cb878;
+    border-style: solid;
+    border-color: #3cb878;
+    padding: 30px 25px;
+    color: #000000;
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    
+}
+.c1 :hover{
+background-color: gray;
+color: white;
+transition: 0.5s ease;
+}
+
+.c2 a{
+background-color: #3cb878;
+padding: 30px 25px;
+color: white;
+border-style: solid;
+
+font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+font-weight: 300;
+}
+.c2 :hover{
+    background-color: gray;
+    transition: 0.5s ease-in;
+    }
+.fullbox{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    font-weight: 400;
+    font-size: 1rem;    
+}
+.box1{
+    
+    background-color: gray;
+    color: white;
+    padding: 20;
+    width: 42%;
+    height: 100%;  
+}
+
+.box1 h5{
+    font-size: 30px;
+    font-family:"Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: end;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-top: 30px;
+
+}
+.box1 p{
+    font-family:"Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: end;
+    padding-right: 50px;    
+}
+.box2{
+    text-align: right;
+    padding: 30px;
+    background-color: #3cb878;
+    font-size: 30px;
+}
+.box2 h3{
+    padding-right: 50px;
+    color: white;
+    font-family:"Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;  
+    font-weight: 300;
+}   
+.box2 p{
+    font-family:"Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    color: white;  
+}
+.box3{
+    text-align: center;
+    padding: 50px;  
+}
+.box3 h5{
+    font-weight: 200;
+    font-size: 30px;
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.box3 p{
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.box4{
+    text-align: center;
+    padding: 50px;
+}
+.box4 h5{
+    font-weight: 200;
+    font-size: 30px ;
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.box4 p{
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.box5{
+    text-align: center;
+    padding: 50px;
+}
+.box5 h5{
+    
+    font-size: 30px ;
+    font-weight: 200;
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.box5 p{
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+    /* end box */
+
+    
+/* paragraph  */
+
+.alltxt{
+   background-image: URL("file:///C:/Users/dell/Downloads/aboutus-bg%20(1).webp");
+   padding-bottom: 100px;
+   display: flex;
+   justify-content: space-between;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: 50px;
+ 
+   
+}
+
+.firstparagraph{
+    width: 38%;  
+    padding-left: 80px;
+    padding-right: 50px; 
+}
+.firstparagraph h1{
+    text-align: center;
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    letter-spacing: 6px;
+    color: #3cb878;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-weight: 400;
+    
+}
+.firstparagraph p{
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: justify;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* 2 paragph */
+
+.second_paragraph{
+    width: 50%;  
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.second_paragraph h2{
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 50px;
+    
+}
+.forbox{
+    padding-top: 5px;
+}
+/* 1 box */
+
+.second_paragraphh{
+    display: flex;
+    padding-top: 50px;
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+
+/* 2 box */
+
+.second_paragraphhh{
+    display: flex;
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-top: 20px;
+    
+}
+
+/* end */
+
+
+.second_paragraphO {
+    background-color: #ededed; 
+    margin-bottom: 30px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+  
+  
+}
+.second_paragraphO h5{
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.icon1{
+    color: #3cb878;
+    text-align: center;
+    padding-top: 30px;
+}
+.icon1 .material-symbols-outlined{
+    font-size: 80px;
+}
+.text1 p{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.text1{
+    text-align: center;
+}
+
+.second_paragraphT{
+    background-color: #ededed;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    padding-bottom: 80px;
+    padding: 30px;
+    padding-right: 50px;
+    
+
+}
+.second_paragraphT h5{
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.icon2{
+    color: #3cb878;
+    text-align: center;
+    padding-top: 30px;
+}
+.icon2 .material-symbols-outlined {
+    font-size: 80px;
+}
+.text2 p{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.text2{
+    text-align: center;
+}
+
+.forboxx{
+    display: flex;
+
+}
+.second_paragraphE{
+    background-color: #ededed;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+}
+.second_paragraphE h5{
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.icon3{
+    color: #3cb878;
+    text-align: center;
+    padding-top: 30px;
+}
+.icon3 .material-symbols-outlined{
+    font-size: 80px;
+}
+.text3 p{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.text3{
+    text-align: center;
+}
+
+.second_paragraphF{
+    background-color: #ededed; 
+    margin-bottom: 30px;
+    margin-right: 80px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.second_paragraphF h5{
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.icon4{
+    color: #3cb878;
+    text-align: center;
+    padding-top: 30px;
+}
+.icon4 .material-symbols-outlined{
+    font-size: 80px;
+}
+.text4 p{
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 30px;
+}
+.text4{
+    text-align: center;
+}
+
+
+/* choose us part  */
+
+.allchoose{
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    padding-left: 130px;
+    padding-bottom: 60px; 
+    padding-right: 80px;
+    
+}
+.choose_title h4{ 
+    font-size: 40px;  
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    padding-top: 90px;
+    padding-bottom: 70px;
+    
+}
+.us_color{
+    color: #3cb878;
+}
+.row1{
+    display: flex;
+     
+}
+.quality{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+    
+.pc1 span{
+    color: #3cb878;
+    font-size: 100px;   
+}
+
+.line1 h5{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 300;
+
+    
+}
+.line1 p{
+    text-align: justify;
+    padding-top: 20px;    
+}
+
+
+.brand{
+    display: flex;
+    padding-left: 30px;
+    padding-bottom: 40px;   
+    padding-right: 20px;  
+    border-bottom: 1px solid black;
+    margin-left: 50px;
+}
+
+.pc2 span{
+    color: #3cb878;
+    font-size: 100px;
+}
+
+.line2{
+    padding-left: 5px;
+}
+
+.line2 h5{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 300;  
+}
+
+.line2 p{
+    text-align: justify;
+    padding-bottom: 5px;
+    padding-top: 15px; 
+    padding-right: 20px;
+   
+}
+
+/* package */
+
+
+.main_title h5{
+    margin-left: 60px;
+    font-size: 35px;  
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    padding-bottom: 60px;
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    padding-top: 10px;
+}
+.all-package{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;         
+}
+.green{
+    color: #3cb878;
+}
+
+.bronze .package-name{
+    padding: 45px;
+    width: 100%;
+    height: 50px;
+    background-color: #3cb878;
+    text-align: center;
+    color: white;
+    
+}
+.bronze h5{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;  
+    padding-right: 10px;
+}
+li{
+    list-style: none;
+    
+}
+.bronze{
+    background-color: #ededed;
+    padding-right: 90px;
+  
+}
+.start p{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 90px;
+
+}
+
+.pack-detail i{
+    color: #3cb878;
+    margin-right: 15px;
+}
+.pack-detail ul li{
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.button{
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.secnd-btn{
+    border: 2px solid #3cb878;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 18px 20px;
+    background: transparent;
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;  
+
+}
+.secnd-btn:hover{
+    background: gray;
+    color: white;
+    transition: 0.4s linear;
+    border: none;
+
+   
+}
+
+/* all client start */
+
+.all-client{
+    padding-top: 90px;
+}
+
+.flexall{
+    display: flex;
+}
+.client-title h5{
+    margin-left: 60px;
+    font-size: 35px;  
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    padding-bottom: 60px;
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    
+}
+.grn{
+    color: #3cb878;
+}
+.boxx1{
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;  
+}
+
+
+.client img{
+    border: 1px solid black;
+    width: 15%;
+    
+}
+
+
+
+
